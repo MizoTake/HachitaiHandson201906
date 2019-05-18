@@ -36,5 +36,5 @@ sysinfo.txt
 *.unitypackage
 
 # Rider Plugin
-/Plugins/*
-/Plugins.meta
+/Assets/Plugins/*
+/Assets/Plugins.meta
