@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e752365dc20b49c2bc1639748ec095b, type: 3}
-  m_Name: PlayerTankConfig
+  m_Name: EnemyTankConfig1
   m_EditorClassIdentifier: 
-  hp: 3
+  hp: 10
   speed: 1
   firePower: 1
   bulletPrefab: {fileID: 2807443470373015907, guid: 431f57a2f2145b2488e99f2b68baf717,
