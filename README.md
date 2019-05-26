@@ -8,7 +8,7 @@ Unity2018.4.0f1
 ```
 └── Assets
     └── TankGameSample
-        ├── Extra (Game.sceneを拡張したサンプルを入れたフォルダ)
+        ├── Extra (Game.unityを拡張したサンプルを入れたフォルダ)
         │   ├── AdvancedCode (処理は同じだが中級者から上級者向けのコードの書き方サンプル) ※今回無い方が良い気がする、検討
         │   ├── Audio
         │   ├── AutoSpawn (敵戦車が自動的に生成されるようにしたサンプル)
