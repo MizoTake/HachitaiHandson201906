@@ -7,7 +7,7 @@ namespace TankGameSample
     public class Enemy : MonoBehaviour
     {
         
-        public int hp;
+        public int hp = 1;
         public GameObject bulletPrefab;
         public float firePower;
         public Transform firePoint;
