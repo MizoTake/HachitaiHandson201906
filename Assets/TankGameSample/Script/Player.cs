@@ -56,11 +56,6 @@ namespace TankGameSample
         void Fire()
         {
             var bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-            bullet.layer = gameObject.layer;
-            foreach (Transform child in bullet.transform)
-            {
-                child.gameObject.layer = gameObject.layer;
-            }
             var rigid = bullet.GetComponent<Rigidbody>();
             rigid.AddRelativeForce((Vector3.forward + Vector3.up) * firePower, ForceMode.Force);
         }
